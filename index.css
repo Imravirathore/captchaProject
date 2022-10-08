@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #E0E0E0;
+}
+
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child
+{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.content
+{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+ 
+
+}
+
+.army_image
+{
+    background-color: rgb(30, 83, 30);
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+
+.para
+{
+    padding: 0 20px;
+}
+
+.captcha
+{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.captcha span
+{
+    color: red;
+    margin: 10px 0;
+}
+
+.captcha input
+{
+    width: 200px;
+    font-size: 20px;
+    letter-spacing: 10px;
+    
+    
+}
+
+.fa-solid
+{
+    margin: 10px 0;
+    background-color:blue;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+
+}
+
+
+
+.captcha button
+{
+    width: 200px;
+    margin-top: 10px;
+    background-color: blue;
+}
+
+@media (max-width:600px)
+ {
+    .army_image img
+    {
+        width: 300px;
+    }
+    
+   
+}
